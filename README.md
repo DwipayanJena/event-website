@@ -3,7 +3,7 @@
 A responsive event management website where users can browse events, search and filter them, view details, and register.
 
 ## Live Demo
-https://your-username.github.io/event-website/
+https://DwipayanJena.github.io/event-website/
 
 ## Features
 - Hero section and event cards
