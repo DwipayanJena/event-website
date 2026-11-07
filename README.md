@@ -2,6 +2,9 @@
 
 A responsive event management website where users can browse events, search and filter them, view details, and register.
 
+![EventHub homepage](images/homepage.png)
+
+
 ## Live Demo
 https://DwipayanJena.github.io/event-website/
 
