@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventHub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Event<span>Hub</span></a>
+    <nav>
+      <a href="#events">Events</a>
+      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover. Register. Experience.</h1>
+    <p>Find the best upcoming events near you.</p>
+    <a href="#events" class="btn">Explore Events</a>
+  </section>
+
+  <section id="events" class="container">
+    <h2>Upcoming Events</h2>
+    <div class="controls">
+      <input type="search" id="searchInput" placeholder="Search events...">
+      <div id="filters">
+        <button class="filter active" data-cat="All">All</button>
+        <button class="filter" data-cat="Tech">Tech</button>
+        <button class="filter" data-cat="Music">Music</button>
+        <button class="filter" data-cat="Business">Business</button>
+        <button class="filter" data-cat="Sports">Sports</button>
+      </div>
+    </div>
+    <div id="eventGrid" class="grid"></div>
+    <p id="noResults" hidden>No events found.</p>
+  </section>
+
+  <footer>© 2026 EventHub</footer>
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

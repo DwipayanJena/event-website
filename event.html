@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Details</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">Event<span>Hub</span></a>
+    <nav><a href="index.html">← Back</a></nav>
+  </header>
+
+  <main class="container">
+    <div id="eventDetails"></div>
+
+    <form id="regForm" class="form-box" novalidate>
+      <h2>Register</h2>
+      <label>Full Name <input type="text" id="name"></label>
+      <span class="error" id="nameErr"></span>
+      <label>Email <input type="email" id="email"></label>
+      <span class="error" id="emailErr"></span>
+      <label>Phone <input type="tel" id="phone" maxlength="10"></label>
+      <span class="error" id="phoneErr"></span>
+      <label>Event <select id="eventSelect"></select></label>
+      <span class="error" id="eventErr"></span>
+      <button type="submit" class="btn" style="margin-top:1rem">Register</button>
+      <div id="confirmation"></div>
+    </form>
+  </main>
+
+  <script src="js/events.js"></script>
+  <script src="js/event.js"></script>
+</body>
+</html>
